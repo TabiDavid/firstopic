@@ -1,35 +1,28 @@
-function areaPerimeter(){
+function buyHouse(){
 
-    var length = parseFloat(document.getElementById("write number 1").value);
-    var width = parseFloat(document.getElementById("write number 2").value);
-var operator = (2 * length) + (2 * width);
+    var casa = parseFloat(document.getElementById("write number 1").value);
+    var  tax = casa * 0.12;
 
-var perimeter = result(operator);
+var sum = house(casa + tax);
 
-document.getElementById("outPut").innerHTML = perimeter;
+var total = sum;
+
+return total;
 
 }
 
-function result(a) {
-var text = " ";
-    for (var i = 0; i >= a; i++){
-text += i; 
-return text;
-    
+function house(a) {
 
-    }
-}
-    /*if (a >= 500 & a <= 900){
+    if ( a <= 30000){
+
+        var houses = ["Residential", "Hotel", "House at the field", "Farm"];
+        var text = " ";
         
-        return "pay 10 % discount";
-
+        for (var i = 0; i <= houses.length - 1; i++){
+    text += houses[i] + "<br/>";
+         
     }
-  else if (a >= 901){
-
-    return "pay"
-
-  }  
-  else {
-      return "pay the price"
-  }
-}*/
+}
+document.getElementById ("outPut").innerHTML = text;
+}
+    
