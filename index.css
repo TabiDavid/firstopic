@@ -1,3 +1,6 @@
+
+@import url("https://fonts.googleapis.com/css?family=Jomolhari&display=swap");
+
 body{
     background: #009BC4;
 }
@@ -9,16 +12,13 @@ body{
 h1{
   text-align: center;  
 }
+h2{
+    text-align: center;
+}
 p{text-align: center;
 }
 
 .calling{
-
-   
-    margin: 30em;
-
-}
-#calling1{
 
     margin: 30em;
 }
