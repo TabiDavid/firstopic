@@ -23,6 +23,18 @@ function house(a) {
          
     }
 }
+else if (a > 30000){
+
+    var house = ["Residential + new car", " Hotel + new car, House At tthe Fiel with a new Car", "Farm + new bycicle"];
+     var text = " ";
+     
+     for ( var i = 0; i <= house.length - 1; i++){
+        text += house[i] + "<br/>";
+    }
+     }
+     
+else  return 0;
+
 document.getElementById ("outPut").innerHTML = text;
 }
     
