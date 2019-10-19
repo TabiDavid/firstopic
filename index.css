@@ -13,8 +13,14 @@ p{text-align: center;
 }
 
 .calling{
-    display: flex;
+
+    /*display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;*/
+    width: 4000%;
+    background: #747474;
+    height: 4000px;
     margin: auto;
 }
+

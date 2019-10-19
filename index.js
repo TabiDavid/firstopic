@@ -33,7 +33,10 @@ else if (a > 30000){
     }
      }
      
-else  return 0;
+else {
+
+  text = "Put the amount";
+}
 
 document.getElementById ("outPut").innerHTML = text;
 }
