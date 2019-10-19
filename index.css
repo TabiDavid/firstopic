@@ -1,3 +1,20 @@
 body{
     background: #009BC4;
 }
+.contener{
+
+    background: #33bb55
+}
+
+h1{
+  text-align: center;  
+}
+p{text-align: center;
+}
+
+.calling{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+}
