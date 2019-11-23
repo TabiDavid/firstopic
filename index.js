@@ -90,3 +90,31 @@ var one = [
 
 document.getElementById("demo").innerHTML = x;
 }
+
+
+function Show(){
+  var text = " ";
+  var Person = {
+    Name: "My name is David ", last: " and my last name is Tabi ", age: "I am " + " " +  33 + " years old."
+  }
+  var i;
+  for (i in Person){
+  
+    text += Person[i] + " ";
+  }
+  document.getElementById("Person1").innerHTML = text;
+  }
+  
+  
+  function multiply(){
+  
+  var n = "all of my life is repeating" + "<br/>"
+  var i = 1;
+  var text = n;
+  while (i < 10){
+      text += n; 
+      i++;
+  }
+  document.getElementById("all1").innerHTML = text;
+  };
+  
