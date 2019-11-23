@@ -41,3 +41,52 @@ else {
 document.getElementById ("outPut").innerHTML = text;
 }
     
+
+
+
+var one = [
+    {
+      "Name": "David",
+      "City": "Chilcapamba",
+      "Country": "Ecuador",
+      "age": "33"
+    },
+    {
+      "Name": "Juan",
+      "City": "Otavalo",
+      "Country": "Ecuador",
+      "age": "32"
+    },
+    {
+      "Name": "Pedro",
+      "City": "San Juan",
+      "Country": "Peru",
+      "age": "43"
+    },
+    {
+      "Name": "Jose",
+      "City": "Iluman",
+      "Country": "Ecuador",
+      "age": "45"
+    },
+    {
+      "Name": "Leo",
+      "City": "Peguche",
+      "Country": "Peru",
+      "age": "45"
+    }
+  ]
+
+  function arrays(){
+
+  var i, j, x = " ";
+
+  for (i = 0; i < one.length; i++) {
+
+  x += "<h3>" + one[i].Name + "</h3>" + "<br>" + "Age: " + one[i].age + "<br>" + "City: " + one[i].City + "<br>" + "Country: " + one[i].Country;
+
+  
+}
+
+document.getElementById("demo").innerHTML = x;
+}
